@@ -1,0 +1,174 @@
+/***** Modal Rtl *****/
+.inquiry-modal .btn-close {
+  right: auto;
+  left: 0;
+}
+
+.cart-widget .cart-content {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.category-swiper2 .shop-card .dz-content {
+  text-align: right;
+}
+
+.search-input .bootstrap-select.default-select:after {
+  right: auto;
+  left: 0;
+}
+
+.btn-quantity {
+  margin-right: 0;
+}
+
+.search-input .btn {
+  right: auto;
+  left: 0;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.dz-search-area
+  .search-input
+  .bootstrap-select.default-select
+  .dropdown-toggle {
+  padding: 0px 0px 0px 25px;
+}
+
+.dz-offcanvas.offcanvas .btn-close {
+  right: auto;
+  left: 5px;
+}
+
+.offcanvas.offcanvas-end {
+  right: auto;
+  left: 0;
+}
+
+.offcanvas.offcanvas-end {
+  transform: translateX(-100%);
+}
+
+/**** Loading ****/
+.loader-2 {
+  right: auto;
+  left: 30px;
+}
+
+/**** Menu Rtl ****/
+.logo-header {
+  float: right;
+}
+
+.site-header .extra-nav {
+  float: left;
+}
+
+.site-header .extra-nav .extra-cell > * {
+  margin-left: -10px;
+  margin-right: 0;
+}
+
+.header-nav .nav > li.menu-item-has-children > a:after,
+.header-nav .nav > li.sub-menu-down > a:after {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.navbar-toggler {
+  float: left;
+}
+
+/**** Mega Menu rtl ****/
+.mega-menu {
+  left: auto !important;
+  right: 250px !important;
+}
+
+.header-nav .nav > li .mega-menu,
+.header-nav .nav > li .sub-menu {
+  text-align: right;
+}
+
+/**** Meida Tablet and Mobile Menu *****/
+
+@media only screen and (max-width: 991px) {
+  .header-nav .nav > li.menu-item-has-children > a:after,
+  .header-nav .nav > li.sub-menu-down > a:after {
+    float: left;
+  }
+  .navbar-toggler {
+    margin: 18px 0px 16px 45px;
+  }
+  .mo-left .header-nav.show {
+    right: 0px;
+    left: auto;
+  }
+  .mo-left .header-nav {
+    right: -100%;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-nav .nav > li.menu-item-has-children > a:after,
+  .header-nav .nav > li.sub-menu-down > a:after {
+    margin-left: 10px;
+  }
+}
+
+/***** Header Rtl *****/
+
+.inquiry-modal .modal-content .custom-checkbox .form-check-input {
+  margin-left: 12px;
+}
+
+.whatwedo-section {
+  background-position: right;
+}
+
+/***** Page Content Rtl *****/
+
+.breadcrumb-row ul .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f104";
+  float: right;
+  padding-left: 12px;
+}
+
+.about-style3 .section-head p {
+  text-align: justify;
+}
+
+.get-in-touch span {
+  margin-right: 10px;
+}
+
+.icon-bx-wraper.style-2 .icon-bx {
+  margin-left: 24px;
+  margin-right: 0;
+}
+
+.icon-bx-wraper.style-2 .data-text {
+  left: -5px;
+  right: auto;
+}
+
+.widget_post ul .dz-media {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+/***** Footer *****/
+.dzSubscribe .form-group .input-group .input-group-addon {
+  right: auto;
+  left: 0;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.scroltop {
+  right: auto;
+  left: 30px;
+}
